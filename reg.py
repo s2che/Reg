@@ -1,6 +1,6 @@
 import sqlite3
 from PyQt5 import QtWidgets
-import reglog_ui
+import ui
 
 db = sqlite3.connect('database.db')
 cursor = db.cursor()
